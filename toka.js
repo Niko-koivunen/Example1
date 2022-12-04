@@ -1,5 +1,9 @@
 function sayHELLO(){
-    console.log("HELLO from function");
+    console.log("hello from function");
 }
 
+function greetings(fname){
+    console.log ("hello "+fname);
+}
 sayHELLO();
+greetings("Jussi");
